@@ -302,32 +302,22 @@ a {
   position: relative;
 }
 
-.card-header {
-  text-align: center;
-  margin-bottom: 8px;
-}
-
-.who .card:first-child .card-header .icon {
-  background: rgba(30, 58, 138, 0.1);
-}
-
-.who .card:last-child .card-header .icon {
-  background: rgba(249, 115, 22, 0.1);
-}
-
 .who .card .icon {
   font-size: 48px;
   margin-bottom: 24px;
+  display: flex;
+  justify-content: center;
 }
 
 .who .card h3 {
   font-size: 24px;
   font-weight: 600;
   margin-bottom: 24px;
+  text-align: center;
 }
 
 .who .card ul {
-  list-style: none;
+  list-style: disc;
   margin-bottom: 32px;
 }
 
@@ -343,14 +333,6 @@ a {
 
 .who .card:last-child li::marker {
   color: #2563EB;
-}
-
-.who .card:first-child li::marker {
-  color: #2563EB;
-}
-
-.who .card:last-child li::marker {
-  color: #F97316;
 }
 
 .who .card .btn-primary,
